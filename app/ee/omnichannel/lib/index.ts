@@ -12,7 +12,7 @@ export const changeLivechatStatus = () => sdk.methodCallWrapper('livechat:change
 // @ts-ignore
 export const getInquiriesQueued = () => sdk.get('livechat/inquiries.queued');
 
-// 123
+// 1234
 // this inquiry is added to the db by the subscriptions stream
 // and will be removed by the queue stream
 // RC 2.4.0
